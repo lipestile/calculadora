@@ -6,7 +6,7 @@ function atualizaTela(valor) {
     var tela = document.getElementById("tela");
     valorTela = valor;
     tela.innerText = valorTela;
-    /*
+    
     if (valorTela != "" && valorAntigoTela != "" && acaoEscolhida != "") {
          document.getElementById("botaoIgual").removeAttribute("disabled")
 
@@ -14,7 +14,7 @@ function atualizaTela(valor) {
     }
 
     document.getElementById("botaoIgual").setAttribute("disabled", "disabled")
-    */
+    
 }
 
 function botaoDigitoClick (e) {
